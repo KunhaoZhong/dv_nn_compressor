@@ -1,3 +1,10 @@
+# Ignore all .npy files
+*.npy
+
+# Ignore all .pth files
+*.pth
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

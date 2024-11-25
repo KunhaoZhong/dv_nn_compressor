@@ -1,0 +1,18 @@
+TODO list:
+
+1. With the result of batch_norm, should I just implement the check_point version of training?
+
+2. test are at the same cosmology... are they actually from different N-body sims? Or randomly selected? Wouldn't this cause any issue??
+
+3. With the present of batch_norm, maybe should also fine-tune other hyper-parameters. In a grid search way
+
+4. Try Huber Loss/MAE loss
+
+5. Make another version where the NN/preprocessing are explicitly split into different summary statistics.
+
+6. In stead of Cov from training; use maybe the Cov_data at fiducial cosmology??
+
+
+# pre-prosessing
+
+PCA/ZCA whitening. EACH PART CAN BE MADE TO HAVE UNITE VARIANCE INDIVIDUALLY
